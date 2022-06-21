@@ -1,0 +1,95 @@
+CP1401 2021-2 Assignment 2
+Simple Zoo Simulator - JOURNAL
+Student Name: Amanda Windsor
+Date started: 11/10/2021
+
+Monday 11/10/21 6:00pm-7:00pm
+Work:
+Understanding how the program should work:
+- Thorough reading of the Assignment 2 Task Sheet
+- Took notes on important bits
+- Wrote checklist of important things to remember and tick off
+  before submitting assignment
+Started working on a rough flowchart to get general idea of program
+Wrote first draft pseudocode for main program
+Wrote code for import random module, welcome message, instructions.
+Challenges: Got a bit caught up overthinking the functions and had to wind myself back
+
+Tuesday 12/10/21 10:00am-1:00pm with a few breaks
+Work:
+Wrote code for menu
+Went ahead and wrote it and then double checked with the Programming Guide.
+Looks good.
+Started working on simulate_day function and add_animal function.
+Did testing of everything I've done so far
+Challenges:
+Double check how to create list for the animals and the append() function.
+Got a bit stuck on how to delete random animal from list. Fine with del but unsure how to make it a random animal
+Re-read the lists and tuples chapter in textbook and re-watched lecture videos.
+
+Thursday 14/10/21 11:00-12:30
+Work:
+Worked on calculating amount of income according to formula
+wrote code for generate random number for luck and display lucky number of the day.
+Did loose psuedocode for add_animal function, started on code.
+    wrote code for error checking animal name and checking that the new animal didn't already exist in animal_list.
+    wrote code for calculating cost of new animal.
+    Did testing of everything I've done so far
+Challenges:
+Needed to double check how to calculate cost of new animal, had to refresh my memory through the lecture material
+and practicals
+
+Saturday 16/10/21
+Wrote pseudocode and code for add_animal function with error check and
+slicing the substring to display the animal names correct to
+desired output
+Formatting animal names to display with uppercase first letter
+and comma at the end of each animal name
+Did testing of everything I've done so far
+Challenges: Had the right idea with the formatting but had to try a couple of times to get it exactly how
+I wanted it
+
+Sunday 17/10/21 2:00pm-3:00pm
+Work
+Worked on formatting for display_animals function and perfecting it
+Did testing of everything I've done so far
+No issues... at this stage
+
+Tuesday 19/10/21 10:00-12:00
+Work:
+Working on simulate_day function, getting the calculation part working
+Challenges:
+I need to work out how to convert to int as i am converting it but
+it is not giving the correct output, the same as the examples
+e.g Today's lucky number is 52.
+Antelope earned 8, Fox earned 3, Zebra earned 5,
+After 1 day, you have 3 animals and your total income is 7.
+something is wrong with the maths but i'm going to move on and come back to it
+
+Wednesday 20/10/21 7:00-8:00
+Work:
+Testing everything.
+Challenges:
+Silly mistake. Forgot to put menu and user choice at bottom of main menu
+so I had accidentally made a never ending loop. woops. I definitely won't make that mistake again.
+had some trouble with simulate_lucky_day returning the value that it was calculating
+but realised during lecture that I hadn't assigned the function
+to a variable. Lesson learnt
+
+Thursday 21/10/21 12:00-2:00
+Work:
+Fix add new animal loop goes to infinite and says you already have dog when i dont already have dog.
+does a day get added when you add an animal?
+Got converting to int working after revising material.
+Got the 'Wait' calculations working, i had my for loop in the function but changed it to be in main and it started working
+
+Friday 22/10/21
+running tests
+checking off what's working a little bits to fix up
+intro and main menu - working
+display - working
+adding an animal you can't afford - working
+started doing finishing touches, worked on pseudocode to match any changes I had made
+
+Sunday 24/10/21 12:00-1:00
+Testing and perfecting, output is good, I'm happy.
